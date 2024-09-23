@@ -1,0 +1,40 @@
+{
+  "id": "40534494-459a-417a-8a61-611b062ed8f1",
+  "template": "app",
+  "versions": {
+    "AbpFramework": "8.3.0",
+    "AbpStudio": "0.8.2"
+  },
+  "modules": {
+    "Acme.BookStore": {
+      "path": "Acme.BookStore.abpmdl"
+    }
+  },
+  "runProfiles": {
+    "Default": {
+      "path": "etc/abp-studio/run-profiles/Default.abprun.json"
+    }
+  },
+  "options": {
+    "httpRequests": {
+      "ignoredUrls": [
+        "^/metrics$"
+      ]
+    }
+  },
+  "creatingStudioConfiguration": {
+    "template": "app",
+    "createdAbpStudioVersion": "0.8.2",
+    "tiered": "false",
+    "uiFramework": "angular",
+    "databaseProvider": "ef",
+    "databaseManagementSystem": "sqlserver",
+    "separateTenantSchema": "false",
+    "theme": "basic",
+    "themeStyle": "",
+    "mobileFramework": "none",
+    "progressiveWebApp": "false",
+    "publicWebsite": "false",
+    "socialLogin": ""
+  }
+}
